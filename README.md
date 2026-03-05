@@ -63,6 +63,6 @@ export VLLM_USE_ROCM=1
   --port 8000  
   I am still getting an error I feel vllm.entrypoints.openai.api_server  is a problem  
   
------
+
 
 The implemented system employs the Retrieval-Augmented Generation (RAG) framework, which improves response accuracy by employing both information retrieval and language model generation techniques. The system loads the text documents, which are then split into smaller chunks, converted into vector form, and stored within a vector database for similarity-based retrieval. Once the system receives the user query, it retrieves the most relevant chunks of the document, which then serve as context for the language model's response generation. The framework can employ multiple large language models, including LLaMA and Qwen, which can be managed by the unified LLMManager framework. The system, during evaluation, also measures key performance metrics, including response time, model latency, GPU utilization, GPU memory, GPU throughput (tokens/second), and deployment costs, which can be used for an extensive comparison of the model's accuracy and computational efficiency within the RAG framework.
