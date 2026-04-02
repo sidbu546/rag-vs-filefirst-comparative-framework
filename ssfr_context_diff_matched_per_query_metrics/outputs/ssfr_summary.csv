@@ -1,0 +1,2 @@
+n,avg_hallucination_rate,avg_groundedness_score,avg_answer_relevance_1to5,avg_context_relevance_1to5,avg_confidence,avg_response_time_s,avg_llm_latency_s,avg_gpu_throughput_toks_per_s,avg_eff_gpu_throughput,avg_gpu_util_percent,avg_gpu_mem_percent,avg_total_deployment_cost_usd
+30,0.383068783068783,0.47978174603174595,4.766666666666667,2.8,1.0,107.84465095996856,95.72701934392875,4.47929944960706,4.4550239457804555,99.45862807298367,58.85081111979392,2.0
