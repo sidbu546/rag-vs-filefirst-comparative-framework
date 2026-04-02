@@ -142,6 +142,7 @@ python run_models.py \
   * Higher GPU capacity OR
   * Quantization (4-bit recommended)
 * Embeddings can run on CPU to save GPU memory
+  
 Model cards used:
 meta-llama/Llama-3.3-70B-Instruct
 Qwen/Qwen2.5-32B-Instruct
